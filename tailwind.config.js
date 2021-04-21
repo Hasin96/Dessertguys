@@ -4,9 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        brand:"#E9B949",
+        brand:"#b99656",
+        "brand-border": "#aa8746",
         "brand-light": "#fffaeb",
-        "neutral-light": "#D3D3D3"
+        "neutral-header": "#7E7E7E",
+        "neutral-text": "#7e7e7e",
+        "background-light" : "#f7f7f7"
       },
       spacing: {
         116: '32rem',
@@ -14,8 +17,14 @@ module.exports = {
         140: '44rem'
       },
       fontFamily: {
-        'fancy': ['Yellowtail']
-      }
+        'fancy': ['Noto Serif TC', 'serif'],
+        'body': ['Lato', 'sans-serif']
+      },
+      letterSpacing: {
+        header: '.3rem',
+        subHeader: '.1rem',
+        text: '.04rem'
+       }
      
     },
   },
